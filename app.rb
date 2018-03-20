@@ -12,9 +12,9 @@ class App < Sinatra::Base
 		erb :goodbye
 	end
 
-	get '/' do
-		erb :index
-	end
+	# get '/' do
+	# 	erb :index
+	# end
 
 
 end
