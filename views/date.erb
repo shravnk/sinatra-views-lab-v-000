@@ -8,6 +8,6 @@
 
     <% dt = DateTime.now %>
     <!-- <%= "The date is #{dt.strftime('%A')}, #{dt.month} #{dt.day}, #{dt.year}" %> -->
-    <h1><%= "The date is #{dt.strftime('%A')}, #{dt.month} #{dt.day}, #{dt.year}" %></h1>
+    <h1><%= "The date is #{dt.strftime('%A')}, #{dt.month.strftime('%B')} #{dt.day.strftime('%A')}, #{dt.year.strftime('%A')}" %></h1>
   </body>
 </html>
